@@ -77,5 +77,5 @@ JavaScript (ES6)
 
 **AUTHOR:**
 
-Adeniyi Olamide Adeife 
+Adeniyi Olamide Adeife
 Frontend Developer | Computer Science Student
