@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Authentication System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+
+  <div id="signupBox" class="card">
+    <h2>Create Account</h2>
+
+    <input type="text" id="signupUsername" placeholder="Username">
+    <input type="password" id="signupPassword" placeholder="Password">
+
+    <div class="btn-group">
+      <button onclick="signup()">Sign Up</button>
+      <button class="cancel" onclick="resetSignup()">Cancel</button>
+    </div>
+
+    <button class="link" onclick="showLogin()">Already have an account? Login</button>
+
+    <p id="signupMsg"></p>
+  </div>
+
+
+  <div id="loginBox" class="card hidden">
+    <h2>Login</h2>
+
+    <input type="text" id="loginUsername" placeholder="Username">
+    <input type="password" id="loginPassword" placeholder="Password">
+
+    <div class="btn-group">
+      <button onclick="login()">Login</button>
+      <button class="cancel" onclick="resetLogin()">Cancel</button>
+    </div>
+
+    <button class="link" onclick="showSignup()">Create new account</button>
+
+    <p id="loginMsg"></p>
+  </div>
+
+  <!-- SUCCESS -->
+  <div id="successBox" class="card hidden">
+    <h2 id="successText"></h2>
+    <button onclick="backToLogin()">Back</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+<footer class="footer">
+  <p>Adeniyi Olamide Adeife</p>
+  <p>220404057</p>
+</footer>
+</body>
+</html>
