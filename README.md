@@ -53,27 +53,30 @@ JavaScript (ES6)
 
 **SCREENSHOTS**
 
+**LANDING PAGE**
+
+<img src="./Screenshots/landingpage/landing.png" width="250"/>
+
 **CALCULATOR**
 
-<img width="479" height="471" alt="Screenshot 2026-06-11 092641" src="./Screenshots/Calculator/Screenshot 2026-06-11 092641.png" />
-<img width="479" height="473" alt="Screenshot 2026-06-11 092657" src="./Screenshots/Calculator/Screenshot 2026-06-11 092657.png" />
-<img width="480" height="476" alt="Screenshot 2026-06-11 092728" src="./Screenshots/Calculator/Screenshot 2026-06-11 092728.png" />
-<img width="479" height="477" alt="Screenshot 2026-06-11 092739" src="./Screenshots/Calculator/Screenshot 2026-06-11 092739.png" />
-<img width="479" height="475" alt="Screenshot 2026-06-11 093253" src="./Screenshots/Calculator/Screenshot 2026-06-11 093253.png" />
-<img width="479" height="473" alt="Screenshot 2026-06-11 093304" src="./Screenshots/Calculator/Screenshot 2026-06-11 093304.png" />
-<img width="480" height="477" alt="Screenshot 2026-06-11 093319" src="./Screenshots/Calculator/Screenshot 2026-06-11 093319.png" />
-<img width="474" height="476" alt="Screenshot 2026-06-11 093330" src="./Screenshots/Calculator/Screenshot 2026-06-11 093330.png" />
-<img width="476" height="473" alt="Screenshot 2026-06-11 093351" src="./Screenshots/Calculator/Screenshot 2026-06-11 093351.png" />
-<img width="478" height="473" alt="Screenshot 2026-06-11 093400" src="./Screenshots/Calculator/Screenshot 2026-06-11 093400.png" />
+<img src="./Screenshots/Calculator/calc-1.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-2.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-3.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-4.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-5.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-6.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-7.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-8.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-9.png" width="250"/>
+<img src="./Screenshots/Calculator/calc-10.png" width="250"/>
 
 **LOG-IN**
 
-<img width="478" height="473" alt="Screenshot 2026-06-11 111419.png" src="./Screenshots/Log-in/Screenshot 2026-06-11 111419.png" />
-<img width="478" height="473" alt="Screenshot 2026-06-11 111453.png" src="./Screenshots/Log-in/Screenshot 2026-06-11 111453.png" />
-<img width="478" height="473" alt="Screenshot 2026-06-11 111503.png" src="./Screenshots/Log-in/Screenshot 2026-06-11 111503.png" />
-<img width="478" height="473" alt="Screenshot 2026-06-11 111540.png" src="./Screenshots/Log-in/Screenshot 2026-06-11 111540.png" />
-<img width="478" height="473" alt="Screenshot 2026-06-11 111606.png" src="./Screenshots/Log-in/Screenshot 2026-06-11 111606.png" />
-<img width="478" height="473" alt="Screenshot 2026-06-11 111617.png" src="./Screenshots/Log-in/Screenshot 2026-06-11 111617.png" />
+<img src="./Screenshots/Log-in/log-1.png" width="250"/>
+<img src="./Screenshots/Log-in/log-2.png" width="250"/>
+<img src="./Screenshots/Log-in/log-3.png" width="250"/>
+<img src="./Screenshots/Log-in/log-4.png" width="250"/>
+<img src="./Screenshots/Log-in/log-5.png" width="250"/>
 
 **AUTHOR:**
 

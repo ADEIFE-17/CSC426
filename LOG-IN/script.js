@@ -1,12 +1,12 @@
 let users = JSON.parse(localStorage.getItem("users")) || [];
 
-// Screens
+
 const signupBox = document.getElementById("signupBox");
 const loginBox = document.getElementById("loginBox");
 const successBox = document.getElementById("successBox");
 const successText = document.getElementById("successText");
 
-// NAVIGATION
+
 function showSignup(){
   signupBox.classList.remove("hidden");
   loginBox.classList.add("hidden");
@@ -23,7 +23,7 @@ function backToLogin(){
   showLogin();
 }
 
-// RESET BUTTONS
+
 function resetSignup(){
   document.getElementById("signupUsername").value = "";
   document.getElementById("signupPassword").value = "";
@@ -36,18 +36,23 @@ function resetLogin(){
   document.getElementById("loginMsg").textContent = "";
 }
 
-// SIGNUP
+
 function signup(){
   const username = document.getElementById("signupUsername").value.trim();
   const password = document.getElementById("signupPassword").value.trim();
   const msg = document.getElementById("signupMsg");
 
-  // validation
+ 
   if(!username || !password){
     msg.textContent = "Username and Password are required";
     msg.className = "error";
     return;
   }
+  if(password.length < 6){
+  msg.textContent = "Password must be at least 6 characters";
+  msg.className = "error";
+  return;
+}
 
   const exists = users.find(u => u.username === username);
 
@@ -68,7 +73,7 @@ function signup(){
   }, 1200);
 }
 
-// LOGIN
+
 function login(){
   const username = document.getElementById("loginUsername").value.trim();
   const password = document.getElementById("loginPassword").value.trim();
@@ -94,7 +99,7 @@ function login(){
   showSuccess();
 }
 
-// SUCCESS SCREEN
+
 function showSuccess(){
   signupBox.classList.add("hidden");
   loginBox.classList.add("hidden");
